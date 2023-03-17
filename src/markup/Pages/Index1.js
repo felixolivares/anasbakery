@@ -10,9 +10,9 @@ import Accord from './../Element/Accord';
 //Images	
 var img1 = require('./../../images/background/bg5.jpg');
 var serblog1 = require('./../../images/our-services/macarrones.png');
-var serblog2 = require('./../../images/our-services/pic2.jpg');
-var serblog3 = require('./../../images/our-services/pic3.jpg');
-var serblog4 = require('./../../images/our-services/pic4.jpg');
+var serblog2 = require('./../../images/our-services/naked-cake.png');
+var serblog3 = require('./../../images/our-services/hp-cake.png');
+var serblog4 = require('./../../images/our-services/snow-white-cake.png');
 var img2 = require('./../../images/background/bg1.jpg');
 var img3 = require('./../../images/background/bg5.jpg');
 var img4 = require('./../../images/background/bg4.jpg');
@@ -49,8 +49,8 @@ class Index1 extends Component{
 									<div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
 										<div className="icon-bx-wraper text-center service-box1" style={{backgroundImage: "url(" + serblog1 + ")"}}>
 											<div className="icon-content">
-												<h2 className="dlab-tilte text-white">Macarons</h2>
-												<p>Lorem Ipsum is simply</p>
+												<h2 className="dlab-tilte text-white">Macarrones</h2>
+												<p>Decoraciones especiales</p>
 												<div className="dlab-separator style1 bg-primary"></div>
 												<Link to={('/shop-product-details')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
 											</div>
@@ -59,8 +59,8 @@ class Index1 extends Component{
 									<div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
 										<div className="icon-bx-wraper text-center service-box1" style={{backgroundImage: "url(" + serblog2 + ")"}}>
 											<div className="icon-content">
-												<h2 className="dlab-tilte text-white">Small Cakes</h2>
-												<p>Lorem Ipsum is simply</p>
+												<h2 className="dlab-tilte text-white">Pasteles</h2>
+												<p>Diseños personalizados</p>
 												<div className="dlab-separator style1 bg-primary"></div>
 												<Link to={('/shop-product-details')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
 											</div>
@@ -69,8 +69,8 @@ class Index1 extends Component{
 									<div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
 										<div className="icon-bx-wraper text-center service-box1" style={{backgroundImage: "url(" + serblog3 + ")"}}>
 											<div className="icon-content">
-												<h2 className="dlab-tilte text-white">Occasion Cakes</h2>
-												<p>Lorem Ipsum is simply </p>
+												<h2 className="dlab-tilte text-white">Fondant</h2>
+												<p>Diferentes tipos de materiales</p>
 												<div className="dlab-separator style1 bg-primary"></div>
 												<Link to={('/shop-product-details')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
 											</div>
@@ -79,8 +79,8 @@ class Index1 extends Component{
 									<div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
 										<div className="icon-bx-wraper text-center service-box1" style={{backgroundImage: "url(" + serblog4 + ")"}}>
 											<div className="icon-content">
-												<h2 className="dlab-tilte text-white">Cupcakes</h2>
-												<p>Lorem Ipsum is simply </p>
+												<h2 className="dlab-tilte text-white">Temáticos</h2>
+												<p>Para todas las ocaciones</p>
 												<div className="dlab-separator style1 bg-primary"></div>
 												<Link to={('/shop-product-details')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
 											</div>
