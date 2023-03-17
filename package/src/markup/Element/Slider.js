@@ -13,11 +13,11 @@ class Slider extends Component{
 						<div className="slide" style={{ backgroundImage: "url("+ slider1 +")"}} >
 							{/* <img className="d-block w-100 slider" src={require('./../../images/main-slider/slide1.jpg')}	alt="Second slide"	/> */}
 							<div className="content">
-								<span>Pasteles & Galletas</span>
-								<h2 className="title">Bienvenidos a su pasteleria</h2>
-								<h4 className="sub-title">Los mejores pasteles de Tepic</h4>
-								<Link to={"/about-1"} className="btn btnhover">About Us</Link>
-								<Link to={''} className="btn white" data-toggle="modal" data-target="#exampleModal">Subscribe Now</Link>
+								<span>Pasteles & Postres</span>
+								<h2 className="title">Ana's Bakery</h2>
+								<h4 className="sub-title">Endulza tu vida</h4>
+								{/* <Link to={"/about-1"} className="btn btnhover">About Us</Link>
+								<Link to={''} className="btn white" data-toggle="modal" data-target="#exampleModal">Subscribe Now</Link> */}
 							</div>	
 						</div>	
 					</Carousel.Item>
@@ -25,11 +25,11 @@ class Slider extends Component{
 						<div className="slide" style={{ backgroundImage: "url("+ slider2 +")"}} >
 							{/* <img className="d-block w-100 slider"	src={require('./../../images/main-slider/slide2.jpg')}	alt="Second slide"	/> */}
 							<div className="content">
-								<span>Cakes & Bakery</span>
-								<h2 className="title">Occasion Cakes</h2>
-								<h4 className="sub-title">The Best Coffee In China</h4>
-								<Link to={"/about-1"} className="btn btnhover">About Us</Link>
-								<Link to={''} className="btn white" data-toggle="modal" data-target="#exampleModal">Subscribe Now</Link>
+								<span>Pasteles & Postres</span>
+								<h2 className="title">Pasteles Personalizados</h2>
+								<h4 className="sub-title">Hacemos tu diseño realidad</h4>
+								{/* <Link to={"/about-1"} className="btn btnhover">About Us</Link>
+								<Link to={''} className="btn white" data-toggle="modal" data-target="#exampleModal">Subscribe Now</Link> */}
 							</div>	
 						</div>	
 					</Carousel.Item>

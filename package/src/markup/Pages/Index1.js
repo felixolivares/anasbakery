@@ -93,9 +93,9 @@ class Index1 extends Component{
 											<div className="icon-bx icon-bx-xl">
 												<img src={require('./../../images/cake1.jpg')} alt="" />
 											</div>
-											<h3 className="text-primary">It’s a party and you’re invited</h3>
-											<p className="main-text">Join DexignZone <strong>Bakery</strong>™ to earn Gold level benefits like free Cakes and food, get free refills, pay and order with your phone, and more.</p>
-											<p>Exclusive deals on Cakes, delivered straight to your inbox <Link to={''}>Join Now</Link></p>
+											<h3 className="text-primary">Esto es una fiesta y tu estas invitado!</h3>
+											<p className="main-text">Encuentranos como <strong>Ana's Bakery Tepic</strong> en todas nuestras redes sociales para que puedas estar atento a nuestras promociones y productos inovadores.</p>
+											<p>Creamos pasteles y productos personalizados, pregunta por nuestros precios.</p>
 										</div>
 									</div>
 								</div>
@@ -106,8 +106,8 @@ class Index1 extends Component{
 								<div className="row">
 									<div className="col-lg-12">
 										<div className="section-head text-center">
-											<h2 className="text-white">What Do We Offer For You?</h2>
-											<p className="text-bold">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+											<h2 className="text-white">Que ofrecemos para ti?</h2>
+											<p className="text-bold">Tenemos una amplia variedad de productos que tenemos para ofrecerte, acercate a nosotros, contactanos y cotiza sin compromiso ese bonito pastel que te gustaria presumir para tu siguiente evento.</p>
 											<div className="dlab-separator style1 bg-primary"></div>
 										</div>
 									</div>
@@ -120,12 +120,23 @@ class Index1 extends Component{
 										<div className="row p-l30">
 											<div className="col-lg-6 col-sm-6 m-b30">
 												<div className="icon-bx-wraper text-white service-box2">
+													<div className="icon-bx"> 
+														<Link to={''} className="icon-cell"><img src={require('./../../images/icons/service-icon/icon1.png')} alt="" /></Link>  
+													</div>
+													<div className="icon-content">
+														<h5 className="dlab-tilte">Pasteles</h5>
+														<p>Personaliza tu diseño</p>
+													</div>
+												</div>
+											</div>
+											<div className="col-lg-6 col-sm-6 m-b30">
+												<div className="icon-bx-wraper text-white service-box2">
 													<div className="icon-bx">
 														<Link to={''} className="icon-cell"><img src={require('./../../images/icons/service-icon/icon2.png')} alt="" /></Link>
 													</div>
 													<div className="icon-content">
-														<h5 className="dlab-tilte">Pancakes</h5>
-														<p>Lorem Ipsum is dummy</p>
+														<h5 className="dlab-tilte">Galletas</h5>
+														<p>Florales y decoradas</p>
 													</div>
 												</div>
 											</div>
@@ -135,23 +146,23 @@ class Index1 extends Component{
 														<Link to={''} className="icon-cell"><img src={require('./../../images/icons/service-icon/icon3.png')} alt="" /></Link> 
 													</div>
 													<div className="icon-content">
-														<h5 className="dlab-tilte">Muffin</h5>
-														<p>Lorem Ipsum is dummy</p>
+														<h5 className="dlab-tilte">Cupcakes</h5>
+														<p>Ricos sabores</p>
 													</div>
 												</div>
 											</div>
 											<div className="col-lg-6 col-sm-6 m-b30">
 												<div className="icon-bx-wraper text-white service-box2">
 													<div className="icon-bx">
-														<Link to={''} className="icon-cell"><img src={require('./../../images/icons/service-icon/icon4.png')} alt="" /></Link> 
+														<Link to={''} className="icon-cell"><img src={require('./../../images/icons/service-icon/icon5.png')} alt="" /></Link> 
 													</div>
 													<div className="icon-content">
-														<h5 className="dlab-tilte">Pumpkin cakes</h5>
-														<p>Lorem Ipsum is dummy</p>
+														<h5 className="dlab-tilte">Eventos especiales</h5>
+														<p>Pregunta por nuestros paquetes</p>
 													</div>
 												</div>
 											</div>
-											<div className="col-lg-6 col-sm-6 m-b30">
+											{/* <div className="col-lg-6 col-sm-6 m-b30">
 												<div className="icon-bx-wraper text-white service-box2">
 													<div className="icon-bx">
 														<Link to={''} className="icon-cell"><img src={require('./../../images/icons/service-icon/icon5.png')} alt="" /></Link> 
@@ -172,24 +183,13 @@ class Index1 extends Component{
 														<p>Lorem Ipsum is dummy</p>
 													</div>
 												</div>
-											</div>
-											<div className="col-lg-6 col-sm-6 m-b30">
-												<div className="icon-bx-wraper text-white service-box2">
-													<div className="icon-bx"> 
-														<Link to={''} className="icon-cell"><img src={require('./../../images/icons/service-icon/icon1.png')} alt="" /></Link>  
-													</div>
-													<div className="icon-content">
-														<h5 className="dlab-tilte">Birthday Cake</h5>
-														<p>Lorem Ipsum is dummy</p>
-													</div>
-												</div>
-											</div>
+											</div> */}
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div className="section-full content-inner bg-gray" style={{backgroundImage:"url(" + img2 + ")",  backgroundSize:"100%"}}>
+						{/* <div className="section-full content-inner bg-gray" style={{backgroundImage:"url(" + img2 + ")",  backgroundSize:"100%"}}>
 							<div className="container">
 								<div className="row faq-area1">
 									<div className="col-lg-6 m-b30">
@@ -212,8 +212,8 @@ class Index1 extends Component{
 									</div>
 								</div>
 							</div>
-						</div>
-						<div className="section-full bg-white">
+						</div> */}
+						<div className="section-full content-inner bg-white">
 							<div className="container-fluid">
 								<div className="row">
 									<div className="col-lg-3 col-md-6 col-sm-6">
@@ -222,7 +222,7 @@ class Index1 extends Component{
 												<img src={require('./../../images/our-work/pic1.jpg')} alt="" />
 											</div>
 											<div className="dlab-info">
-												<h2 className="title">vegan pie</h2>
+												<h2 className="title">pastel dietetico</h2>
 											</div>
 										</div>
 									</div>
@@ -232,7 +232,7 @@ class Index1 extends Component{
 												<img src={require('./../../images/our-work/pic2.jpg')} alt="" />
 											</div>
 											<div className="dlab-info">
-												<h2 className="title">lemon cake</h2>
+												<h2 className="title">red velvet</h2>
 											</div>
 										</div>
 									</div>
@@ -242,7 +242,7 @@ class Index1 extends Component{
 												<img src={require('./../../images/our-work/pic3.jpg')} alt="" />
 											</div>
 											<div className="dlab-info">
-												<h2 className="title">wedding cake</h2>
+												<h2 className="title">pastel de bodas</h2>
 											</div>
 										</div>
 									</div>
@@ -252,7 +252,7 @@ class Index1 extends Component{
 												<img src={require('./../../images/our-work/pic2.jpg')} alt="" />
 											</div>
 											<div className="dlab-info">
-												<h2 className="title">fruit cake</h2>
+												<h2 className="title">fondant</h2>
 											</div>
 										</div>
 									</div>
@@ -267,8 +267,8 @@ class Index1 extends Component{
 											<div className="icon-bx icon-bx-xl">
 												<img src={require('./../../images/cake1.jpg')} alt="" />
 											</div>
-											<h3>We Are Professional at Our Skills</h3>
-											<p>More than 2000+ customers trusted us</p>
+											<h3>Somos un equipo de profesionales</h3>
+											<p>Nuestros mas de 500 clientes nos avalan</p>
 										</div>
 									</div>
 								</div>
@@ -276,35 +276,37 @@ class Index1 extends Component{
 									<div className="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
 										<div className="counter-style-1 text-center">
 											<div className="counter-num text-primary">
-												<span className="counter"><CountUp end={53} /></span>
+												<span className="counter"><CountUp end={8} /></span>
 												<small>+</small>
 											</div>
-											<span className="counter-text">Years of Experience</span>
+											<span className="counter-text">Años de experiencia</span>
 										</div>
 									</div>
 									<div className="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
 										<div className="counter-style-1 text-center">
 											<div className="counter-num text-primary">
-												<span className="counter"><CountUp end={102} /></span>
+												<span className="counter"><CountUp end={1200} /></span>
+												<small>+</small>
 											</div>
-											<span className="counter-text">Awards Wins</span>
+											<span className="counter-text">Followers</span>
 										</div>
 									</div>
 									<div className="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
 										<div className="counter-style-1 text-center">
 											<div className="counter-num text-primary">
-												<span className="counter"><CountUp end={36} /></span>
-												<small>k</small>
+												<span className="counter"><CountUp end={500} /></span>
+												<small>+</small>
 											</div>
-											<span className="counter-text">Happy Clients</span>
+											<span className="counter-text">Clientes contentos</span>
 										</div>
 									</div>
 									<div className="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
 										<div className="counter-style-1 text-center">
 											<div className="counter-num text-primary">
-												<span className="counter"><CountUp end={99} /></span>
+												<span className="counter"><CountUp end={3000} /></span>
+												<small>+</small>
 											</div>
-											<span className="counter-text">Perfect Products</span>
+											<span className="counter-text">Pasteles y postres</span>
 										</div>
 									</div>
 								</div>
