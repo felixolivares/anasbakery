@@ -57,20 +57,20 @@ class Index1 extends Component{
 										</div>
 									</div>
 									<div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-										<div className="icon-bx-wraper text-center service-box1" style={{backgroundImage: "url(" + serblog2 + ")"}}>
+										<div className="icon-bx-wraper text-center service-box1" style={{backgroundImage: "url(" + serblog3 + ")"}}>
 											<div className="icon-content">
-												<h2 className="dlab-tilte text-white">Pasteles</h2>
-												<p>Diseños personalizados</p>
+												<h2 className="dlab-tilte text-white">Fondant</h2>
+												<p>Diferentes tipos de materiales</p>
 												<div className="dlab-separator style1 bg-primary"></div>
 												<Link to={('/shop-product-details')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
 											</div>
 										</div>
 									</div>
 									<div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-										<div className="icon-bx-wraper text-center service-box1" style={{backgroundImage: "url(" + serblog3 + ")"}}>
+										<div className="icon-bx-wraper text-center service-box1" style={{backgroundImage: "url(" + serblog2 + ")"}}>
 											<div className="icon-content">
-												<h2 className="dlab-tilte text-white">Fondant</h2>
-												<p>Diferentes tipos de materiales</p>
+												<h2 className="dlab-tilte text-white">Pasteles</h2>
+												<p>Diseños personalizados</p>
 												<div className="dlab-separator style1 bg-primary"></div>
 												<Link to={('/shop-product-details')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
 											</div>

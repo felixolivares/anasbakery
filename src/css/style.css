@@ -2306,7 +2306,7 @@ label {
 /*radio & checkbox*/
 input[type=checkbox],
 input[type=radio] {
-    display: ;
+    display: block;
     opacity: 0;
     margin-left: 1px !important;
 	position: absolute;
@@ -2934,7 +2934,7 @@ blockquote cite{
     .logo-header,
     .is-fixed.header-curve .logo-header,
 	.is-fixed .logo-header,
-3	.is-fixed.header-curve .logo-header{
+	.is-fixed.header-curve .logo-header{
         width: 120px;
 		max-width: 120px;
 		height: 70px;
@@ -6037,7 +6037,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 .widget-testimonial .testimonial-position{
 	text-transform:uppercase;
-	color:#888q;
+	color:#888;
 	font-size:12px;
 	font-style: inherit;
 }
@@ -7086,7 +7086,7 @@ button:focus{
 .btn-link.yellow:hover,
 .btn-link.yellow:active,
 .btn-link.yellow:focus {
-    color: ##d4af19;
+    color: #d4af19;
 }
 /* purple */
 
@@ -9244,7 +9244,7 @@ ul[class*="list-"]{
 .testimonial-9 .testimonial-position,
 .testimonial-10 .testimonial-position{
 	text-transform:uppercase;
-	color:#888q;
+	color:#888;
 	font-size:12px;
 	font-style: inherit;
 }
@@ -9878,7 +9878,7 @@ ul[class*="list-"]{
 .overlay-primary-middle:after,
 .overlay-primary-dark:after,
 .overlay-primary:after {
-    background: ;
+    background: #fff;
 }
 .overlay-black-light:after {
     opacity: 0.3;

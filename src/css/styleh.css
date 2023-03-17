@@ -2190,7 +2190,7 @@ label {
 /*radio & checkbox*/
 input[type=checkbox],
 input[type=radio] {
-    display: ;
+    display: block;
     opacity: 0;
     margin-left: 1px !important;
 	position: absolute;
@@ -2818,7 +2818,7 @@ blockquote cite{
     .logo-header,
     .is-fixed.header-curve .logo-header,
 	.is-fixed .logo-header,
-3	.is-fixed.header-curve .logo-header{
+	.is-fixed.header-curve .logo-header{
         width: 120px;
 		max-width: 120px;
 		height: 70px;
