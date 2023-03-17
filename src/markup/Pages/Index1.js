@@ -9,7 +9,7 @@ import Accord from './../Element/Accord';
 	
 //Images	
 var img1 = require('./../../images/background/bg5.jpg');
-var serblog1 = require('./../../images/our-services/pic1.jpg');
+var serblog1 = require('./../../images/our-services/macarrones.png');
 var serblog2 = require('./../../images/our-services/pic2.jpg');
 var serblog3 = require('./../../images/our-services/pic3.jpg');
 var serblog4 = require('./../../images/our-services/pic4.jpg');
